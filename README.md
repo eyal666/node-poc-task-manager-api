@@ -1,6 +1,6 @@
 # RESTful Task Manager API
 
-This application was built by Eyal Roman to demonstrate RESTful Task Manger API server.
+This application was built by Eyal Roman to demonstrate RESTful Task Manger API server with automatic test suits.
 
 The interface allows the developer to preform CRUD operations with users and tasks include authentication, files upload & email sender.
 
@@ -15,8 +15,6 @@ Contact me: eyal.roman@gmail.com
 # Requirements
 
 Node.js & npm
-
-
 
 # Usage
 
@@ -80,6 +78,7 @@ Creates a user and signing in
     ```
 
 - **Error Response**
+  
   - **Code:** 400
 
 
@@ -138,6 +137,7 @@ Login a user with credentials
     ```
 
 - **Error Response**
+  
   - **Code:** 400
 
 
@@ -167,6 +167,7 @@ Logging-out a user
   - **Code:** 200
 
 - **Error Response**
+  
   - **Code:** 500
 
 
@@ -279,6 +280,7 @@ Creates a user and signing in
     ```
 
 - **Error Response**
+  
   - **Code:** 400
 
 
@@ -433,6 +435,7 @@ Creates a new task for the connected user
     ```
 
 - **Error Response**
+  
   - **Code:** 400
 
 
@@ -462,9 +465,11 @@ Gets a task for logged in user by a given id
   `tasks/5e7243e63ca541325894c40b`
 
 - **Success Response**
-  - **Code:** 201
-
+  
+- **Code:** 201
+  
 - **Error Response**
+  
   - **Code:** 400
 
 
